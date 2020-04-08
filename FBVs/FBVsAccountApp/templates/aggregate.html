@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends "base.html"%}
+{%block body_block%}
+<h1>Employee Aggregate Information<h1><hr>
+  <ul>
+  <li>Average Salary:{{avg}}</li>
+  <li>Max Salary :{{max}}</li>
+  <li>Min Salary :{{min}}</li>
+  <li>Total Salary :{{sum}}</li>
+  <li>Total number of employees Working Presently :{{count}}</li>
+  </ul>
+{%endblock%}

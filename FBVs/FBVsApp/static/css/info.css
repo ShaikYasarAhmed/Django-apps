@@ -1,0 +1,24 @@
+body {
+
+}
+.bg {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/463684/pexels-photo-463684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  background-color: green;
+  color: black;
+  text-align: center;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
